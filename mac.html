@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="mac,birthday,happy">
+    <title>Mac Happy birthday</title>
+    <style>
+        body{
+            background-image: url("./mac.jpg") ;
+            background-repeat: no-repeat;
+            background-size: cover; 
+        }
+
+        button{
+            color: rgb(255, 0, 0);
+            padding: 7px;
+            border:none;
+            border-radius:  4px;
+            cursor: pointer;
+            font-size: 50Px;
+
+        }
+    </style>
+    <script>
+        function birthday(){
+            window.alert("happy birthday ,Mac!");
+            const audio = new Audio('papalapapa.m4a');
+            audio.play();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="birthday()">button</button>
+</body>
+</html>
